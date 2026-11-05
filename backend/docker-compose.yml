@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - FAKE_STORE_API_URL=https://fakestoreapi.com
+      - SALES_EMAIL=sales@example.com
+    restart: unless-stopped
