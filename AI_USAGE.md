@@ -19,3 +19,8 @@
 - **Hilt Integration**: Configured custom `@HiltAndroidApp` Application class (`AiApplication`) in `AndroidManifest.xml`.
 - **Edge-to-Edge Insets**: Added `navigationBarsPadding` to the product details enquiry button to prevent overlap with the system navigation bar.
 - **Navigation Arguments**: Correctly extracted `productId` and `productTitle` from `backStackEntry` to ensure enquiry submissions pass valid product IDs.
+
+## 5. Time Spent
+- **Total Time Taken**: 2 hours
+- **Planning**: 40 minutes (requirements analysis, architectural design, multi-module planning, and task breakdown).
+- **Building, Testing & Reviewing**: 1 hour 20 minutes (implementing backend & Android Clean Architecture client, writing unit tests, and resolving runtime/build issues).
